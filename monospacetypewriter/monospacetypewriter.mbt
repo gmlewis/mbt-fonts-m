@@ -3,8 +3,8 @@
 
 ///|
 let glyphs : Map[String, @fonts.Glyph] = {
-  "\x0a": {
-    char: "\x0a",
+  "\u{0a}": {
+    char: "\u{0a}",
     horiz_adv_x: 589.0,
     gerber_lp: "dd",
     d: "M434 825L352 825L275 637L320 637L434 825ZM301 825L219 825L156 637L200 637L301 825Z",
@@ -13,8 +13,8 @@ let glyphs : Map[String, @fonts.Glyph] = {
     xmax: 434.0,
     ymax: 825.0,
   },
-  "\x0d": {
-    char: "\x0d",
+  "\u{0d}": {
+    char: "\u{0d}",
     horiz_adv_x: 588.0,
     gerber_lp: "d",
     d: "M508 10L508 91L335 91L335 581L252 581L252 498L251 498L251 91L80 91L80 10L508 10Z",
